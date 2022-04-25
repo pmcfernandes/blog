@@ -1,0 +1,58 @@
+baseURL = "https://blog.impedro.com/"
+languageCode = "en"
+title = "I'm Pedro Blog"
+theme = "hugo-paper"
+author = "Pedro Fernandes"
+copyright = "Copyright © 2022, Pedro Fernandes, all rights reserved."
+enableInlineShortcodes = true
+paginate = 10
+
+[params]
+  twitter = 'pmcfernandes'
+  github = 'pmcfernandes'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "https://www.impedro.com"
+    weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true    
