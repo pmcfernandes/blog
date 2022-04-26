@@ -6,6 +6,8 @@ description: "TextSharp is a high level .NET library that permits us to make pdf
 tags: ["itextsharp", ".net"]
 ---
 
+![configuring-itextsharp-for-dotnetcore-and-creating-simple-pdf-file](configuring-itextsharp-for-dotnetcore-and-creating-simple-pdf-file.jpg)
+
 TextSharp is a high level .NET library that permits us to make pdf records from our .NET applications. It gives functionalities to make archives and reports in light of information from data sets or XML documents and union or split pages from existing PDF records. Here, we will investigate the means expected to arrange and utilize iTextSharp in a .NET Core console application.
 
 ### Stage 1: Installing iTextSharp for .NET Core
